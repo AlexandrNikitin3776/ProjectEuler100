@@ -22,5 +22,5 @@ def sumbase(base, finish):
     n = stop // base + 1
     return arSum(0, stop, n)
 
-n = input('Could you please write a number the sum below should be calculated: ')
+n = int(input('Could you please write a number the sum below should be calculated: '))
 print(sumbase(3, n) + sumbase(5, n) - sumbase(15, n))
