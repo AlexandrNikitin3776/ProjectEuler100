@@ -6,7 +6,6 @@ What is the largest prime factor of the number 600851475143 ?
 """
 def largestprimefactor(n):
     n = abs(n)
-    print(n)
     if n <= 3:
         return n
     maxfactor = 1
